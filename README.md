@@ -33,18 +33,6 @@ An API for streaming anime content, providing access to a vast library of anime 
 - **Documentation**: Includes detailed documentation on how to use the API, making integration easy for developers.
 - **Community Contributions**: Open to contributions from the community for expanding the database, adding features, and improving performance.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 A brief introduction to the project and its purpose. Mention why NestJS was chosen and any other relevant details.
@@ -103,7 +91,11 @@ project-root/
 ├── package.json
 └── README.md
 ```
+## Stay in touch
+
+- Author - [Sounak Guha](https://myportfolio-two-bice.vercel.app/)
+- Website - [Chopper IO](https://tony-chopper.vercel.app/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Nest is [MIT licensed](LICENSE).
