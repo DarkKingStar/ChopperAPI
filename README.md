@@ -1,9 +1,5 @@
 # ChopperAPI
 
-[![NestJS Version](https://img.shields.io/badge/NestJS-v7.0.0-red.svg)](https://nestjs.com)
-[![Node.js Version](https://img.shields.io/badge/Node.js-v14.0.0-green.svg)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 <p align="center">
     <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
   </p>
@@ -107,10 +103,6 @@ project-root/
 ├── package.json
 └── README.md
 ```
-
-## Contributing
-
-Explain how others can contribute to the project. Include guidelines for pull requests, code style, and any other relevant information.
 
 ## License
 
