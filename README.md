@@ -29,16 +29,16 @@ An API for streaming anime content, providing access to a vast library of anime 
 Chopper API is a versatile and robust backend service designed to power various applications in the realm of entertainment, particularly focused on anime streaming. Built with scalability and performance in mind, Chopper API provides a comprehensive set of endpoints to fetch anime information, episodes, genres, and more. Whether you're building a web, mobile, or desktop application, Chopper API offers the necessary data and functionality to enhance the user experience.
 
 ## Features
-- **Get Anime Info: Retrieve detailed information about specific anime titles.
-- **Get Anime Episodes: Fetch episodes of a particular anime, with support for pagination and filtering.
-- **Search Anime: Search for anime titles based on user-defined queries.
-- **Watch Episodes: Stream episodes of anime directly through the API.
-- **Discover Latest Anime: Access the latest releases in the world of anime.
-- **Explore Popular Anime: Discover the most popular and trending anime titles.
-- **Browse New Anime: Find newly released anime series.
-- **Explore Anime Movies: Discover and explore anime movies available for streaming.
-- **Browse Anime Genres: Explore anime genres and filter titles based on genre preferences.
-- **Get Anime by Genre: Retrieve anime titles belonging to a specific genre, with support for pagination.
+- **Get Anime Info:** Retrieve detailed information about specific anime titles.
+- **Get Anime Episodes:** Fetch episodes of a particular anime, with support for pagination and filtering.
+- **Search Anime:** Search for anime titles based on user-defined queries.
+- **Watch Episodes:** Stream episodes of anime directly through the API.
+- **Discover Latest Anime:** Access the latest releases in the world of anime.
+- **Explore Popular Anime:** Discover the most popular and trending anime titles.
+- **Browse New Anime:** Find newly released anime series.
+- **Explore Anime Movies:** Discover and explore anime movies available for streaming.
+- **Browse Anime Genres:** Explore anime genres and filter titles based on genre preferences.
+- **Get Anime by Genre:** Retrieve anime titles belonging to a specific genre, with support for pagination.
 
 ## Getting Started
 
