@@ -1,7 +1,7 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { AnimeFetchService } from '../services/anime-fetch.service';
 
-@Controller('anime/fetch')
+@Controller('anime')
 export class AnimeFetchController {
 
   constructor(private readonly animeFetchService: AnimeFetchService) {}
@@ -32,7 +32,7 @@ export class AnimeFetchController {
     return this.animeFetchService.getGenres();
   }
 
-  @Get('genre/:genre')
+  @Get('genres/:genre')
   getAnimeByGenre(@Param('genre') genre: string, @Query('page') page: number) {
     return this.animeFetchService.getAnimeByGenre(genre, page);
   } 

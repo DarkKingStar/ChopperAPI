@@ -10,7 +10,7 @@ export class AnimeDetailsController {
     return this.animeDetailsService.getAnimeDetails(animeid);
   }
 
-  @Get(':animeid/episodes')
+  @Get('episodes/:animeid')
   getAnimeEpisodes(
     @Param('animeid') animeid: string,
     @Query('page') page: number,

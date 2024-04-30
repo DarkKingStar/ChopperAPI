@@ -6,4 +6,8 @@ import { UsersController } from '../controllers/users.controller';
   controllers: [UsersController],
   providers: [UsersService],
 })
-export class UsersModule {}
+export class UsersModule {
+  constructor(private readonly usersService: UsersService) {
+    console.log("user Module Loaded")
+  }
+}

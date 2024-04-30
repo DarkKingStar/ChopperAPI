@@ -7,7 +7,9 @@ import { AnimeFetchModule } from './anime-fetch.module';
 
 @Module({
   imports : [AnimeDetailsModule, AnimeSearchModule, AnimeStreamModule, AnimeFetchModule],
-  // controllers: [AnimeController],
-  // providers: [AnimeService],
 })
-export class AnimeModule {}
+export class AnimeModule {
+  constructor() {
+    console.log('Anime Module Loaded');
+  }
+}

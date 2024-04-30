@@ -5,8 +5,8 @@ import { AnimeStreamService } from '../services/anime-stream.service';
 export class AnimeStreamController {
   constructor(private readonly animeStreamService: AnimeStreamService) {}
 
-  @Get(":animeid/:episodeid")
-  getAnimeStream(@Param('animeid') animeid: string, @Param('episodeid') episodeid: string) {
-    return this.animeStreamService.getAnimeStream(animeid, episodeid);
+  @Get(":episodeid")
+  getAnimeStream(@Param('episodeid') episodeid: string) {
+    return this.animeStreamService.getAnimeStream(episodeid);
   }
 }
