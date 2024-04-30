@@ -81,14 +81,18 @@ project-root/
 │
 ├── src/
 │   ├── controllers/
+│   ├── dto/
+│   ├── entities/
 │   ├── modules/
 │   ├── services/
-│   ├── main.ts
-│   └── app.module.ts
+│   ├── utils/
+│   ├── app.module.ts
+│   └── main.ts
 ├── test/
 │   └── ...
 ├── .gitignore
 ├── package.json
+├── ...
 └── README.md
 ```
 ## Stay in touch
