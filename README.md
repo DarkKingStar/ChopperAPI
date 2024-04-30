@@ -24,22 +24,21 @@
 
 An API for streaming anime content, providing access to a vast library of anime series, movies, and episodes. Built using [NestJS](https://nestjs.com/) and [TypeORM](https://typeorm.io/), this API offers a seamless experience for developers looking to integrate anime streaming functionality into their applications.
 
-## Features
-
-- **Extensive Database**: Utilizes a comprehensive database of anime titles, genres, episodes, and more.
-- **RESTful Endpoints**: Offers a variety of RESTful endpoints for fetching anime details, searching for specific titles, and retrieving episode information.
-- **Authentication**: Supports authentication mechanisms to secure access to premium content or user-specific features.
-- **Scalable Architecture**: Built on NestJS, known for its modular and scalable architecture, making it suitable for projects of any size.
-- **Documentation**: Includes detailed documentation on how to use the API, making integration easy for developers.
-- **Community Contributions**: Open to contributions from the community for expanding the database, adding features, and improving performance.
-
 ## Introduction
 
-A brief introduction to the project and its purpose. Mention why NestJS was chosen and any other relevant details.
+Chopper API is a versatile and robust backend service designed to power various applications in the realm of entertainment, particularly focused on anime streaming. Built with scalability and performance in mind, Chopper API provides a comprehensive set of endpoints to fetch anime information, episodes, genres, and more. Whether you're building a web, mobile, or desktop application, Chopper API offers the necessary data and functionality to enhance the user experience.
 
 ## Features
-
-List the main features and functionalities of the project. Include any notable libraries or technologies being used.
+- **Get Anime Info: Retrieve detailed information about specific anime titles.
+- **Get Anime Episodes: Fetch episodes of a particular anime, with support for pagination and filtering.
+- **Search Anime: Search for anime titles based on user-defined queries.
+- **Watch Episodes: Stream episodes of anime directly through the API.
+- **Discover Latest Anime: Access the latest releases in the world of anime.
+- **Explore Popular Anime: Discover the most popular and trending anime titles.
+- **Browse New Anime: Find newly released anime series.
+- **Explore Anime Movies: Discover and explore anime movies available for streaming.
+- **Browse Anime Genres: Explore anime genres and filter titles based on genre preferences.
+- **Get Anime by Genre: Retrieve anime titles belonging to a specific genre, with support for pagination.
 
 ## Getting Started
 
