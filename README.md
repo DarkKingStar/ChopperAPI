@@ -68,7 +68,7 @@ List any software or dependencies required to run the project, along with instal
 Provide steps to run the application locally.
 
 ```bash
-npm run start:dev
+npm start
 ```
 
 ## Project Structure
