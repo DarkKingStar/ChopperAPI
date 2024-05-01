@@ -79,8 +79,10 @@ project-root/
 │   ├── controllers/
 │   ├── dto/
 │   ├── entities/
+│   ├── middlewares/
 │   ├── modules/
 │   ├── services/
+│   ├── types/
 │   ├── utils/
 │   ├── app.module.ts
 │   └── main.ts
