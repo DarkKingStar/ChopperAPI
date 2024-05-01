@@ -5,7 +5,6 @@ import { AnimeIdDto } from 'src/dto/anime-id.dto';
 import { PlaylistItemDto } from 'src/dto/playlist-item.dto';
 import { PlaylistDto } from 'src/dto/playlist.dto';
 import { Playlist } from 'src/entities/playlist.entity';
-import { AnimePlayList } from 'src/types/AnimePlayList.type';
 
 @Injectable()
 export class PlaylistService {
