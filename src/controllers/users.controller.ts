@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body, Patch, Request, HttpException, HttpStatus 
 import { UsersService } from '../services/users.service'; 
 import { CreateUserDto } from '../dto/create-user.dto';
 import { UpdateUserDto } from '../dto/update-user.dto';
-import { UserProfileResponse, UserResponse } from 'src/types/userResponse.type';
+import { UserJwtResponse, UserProfileResponse, UserResponse } from 'src/types/userResponse.type';
 import { UserLoginDto } from 'src/dto/user-login.dto';
 import { ExpressRequest } from 'src/middlewares/auth.middleware';
 import { UserPasswordDto } from 'src/dto/user-password.dto';
@@ -55,5 +55,13 @@ export class UsersController {
       throw new HttpException('Unauthorized', HttpStatus.UNAUTHORIZED);
     }
     return await this.usersService.changePassword(req.user._id, userResetPasswordDto);
+  }
+
+  @Get('resettoken')
+  async resetToken(@Request() req: ExpressRequest) : Promise<UserJwtResponse>{
+    if(!req.user){
+      throw new HttpException('Unauthorized', HttpStatus.UNAUTHORIZED);
+    }
+    return await this.usersService.buildUserJwtResponse(req.user);
   }
 }

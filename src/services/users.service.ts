@@ -4,7 +4,7 @@ import { UpdateUserDto } from '../dto/update-user.dto';
 import { User } from 'src/entities/user.entity';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { UserProfileResponse, UserResponse } from 'src/types/userResponse.type';
+import { UserJwtResponse, UserProfileResponse, UserResponse } from 'src/types/userResponse.type';
 import { UserLoginDto } from 'src/dto/user-login.dto';
 import { compare, hash } from 'bcrypt';
 import {sign} from 'jsonwebtoken';
@@ -101,6 +101,14 @@ export class UsersService {
       name: user.name,
       email: user.email,
       statusCode: 200  
+    }
+  }
+
+  buildUserJwtResponse(user: User): UserJwtResponse{
+    return {
+      statusCode: 200,
+      access_token: this.generateJwt(user, '7d'),
+      refresh_token: this.generateJwt(user, '30d')    
     }
   }
 
