@@ -84,7 +84,6 @@ project-root/
 │   ├── services/
 │   ├── types/
 │   ├── utils/
-│   ├── app.module.ts
 │   └── main.ts
 ├── test/
 │   └── ...
