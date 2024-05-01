@@ -89,6 +89,9 @@ export class UsersService {
       _id: user._id,
       name: user.name,
       email: user.email,
+      avatar: user.avatar,
+      created_At: user.created_At,
+      updated_At: user.updated_At,
       statusCode: 200,
       access_token: this.generateJwt(user, '7d'),
       refresh_token: this.generateJwt(user, '30d')    
@@ -100,6 +103,9 @@ export class UsersService {
       _id: user._id,
       name: user.name,
       email: user.email,
+      avatar: user.avatar,
+      created_At: user.created_At,
+      updated_At: user.updated_At,
       statusCode: 200  
     }
   }

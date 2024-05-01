@@ -8,4 +8,11 @@ export class CreateUserDto {
     readonly email: string;
     @IsNotEmpty()
     readonly password: string;
+
+    readonly avatar: string;
+
+    @IsNotEmpty()
+    readonly created_At: Date;
+    @IsNotEmpty()
+    readonly updated_At: Date;
 }

@@ -6,6 +6,7 @@ import { AppController } from './controllers/app.controller';
 import { AppService } from './services/app.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
+import { PlaylistModule } from './modules/playlist.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { ConfigModule } from '@nestjs/config';
     AnimeModule,
     ConfigModule.forRoot(),
     MongooseModule.forRoot(process.env.MONGODB_URI),
+    PlaylistModule,
 
   ],
   controllers: [AppController],
