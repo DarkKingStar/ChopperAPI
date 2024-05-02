@@ -114,6 +114,7 @@ export class AnimeDetailsService {
       if (episodes.length == 0) {
         return {
           error: 'true',
+          animeId: animeid,
           results: [],
           status: 404,
           message: 'No episodes found',
@@ -121,6 +122,7 @@ export class AnimeDetailsService {
       }
       return {
         error: 'false',
+        animeId: animeid,
         results: episodes,
         message: 'Anime episodes fetch success',
       };
