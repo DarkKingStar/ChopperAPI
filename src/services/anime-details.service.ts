@@ -23,7 +23,7 @@ export class AnimeDetailsService {
     try {
       const res = await axios.get(`${baseUrl}/category/${animeid}`);
       const $ = (0, cheerio.load)(res.data);
-      animeInfo.animeid = new URL(`${baseUrl}/category/${animeid}`).pathname.split('/')[2];
+      animeInfo.animeid = animeid;
       animeInfo.title = $(
         'section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1',
       )
